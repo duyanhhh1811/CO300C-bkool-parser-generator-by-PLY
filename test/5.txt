@@ -1,0 +1,5 @@
+Case:	#5
+Result:	True
+Input:	x + y - z;
+Expect:	[('ID', 'x'), ('ADD_OP', '+'), ('ID', 'y'), ('SUB_OP', '-'), ('ID', 'z'), ('SEMI', ';')]
+Answer:	[('ID', 'x'), ('ADD_OP', '+'), ('ID', 'y'), ('SUB_OP', '-'), ('ID', 'z'), ('SEMI', ';')]

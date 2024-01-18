@@ -1,0 +1,5 @@
+Case:	#13
+Result:	True
+Input:	x = y + 3;
+Expect:	[('ID', 'x'), ('EQUAL_SIGN', '='), ('ID', 'y'), ('ADD_OP', '+'), ('INTLIT', 3), ('SEMI', ';')]
+Answer:	[('ID', 'x'), ('EQUAL_SIGN', '='), ('ID', 'y'), ('ADD_OP', '+'), ('INTLIT', 3), ('SEMI', ';')]

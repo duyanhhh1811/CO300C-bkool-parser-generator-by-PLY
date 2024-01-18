@@ -1,0 +1,5 @@
+Case:	#15
+Result:	True
+Input:	for (i = 0; i < 10; i++) {}
+Expect:	[('FOR', 'for'), ('LB', '('), ('ID', 'i'), ('EQUAL_SIGN', '='), ('INTLIT', 0), ('SEMI', ';'), ('ID', 'i'), ('LT_OP', '<'), ('INTLIT', 10), ('SEMI', ';'), ('ID', 'i'), ('ADD_OP', '+'), ('ADD_OP', '+'), ('RB', ')'), ('LP', '{'), ('RP', '}')]
+Answer:	[('FOR', 'for'), ('LB', '('), ('ID', 'i'), ('EQUAL_SIGN', '='), ('INTLIT', 0), ('SEMI', ';'), ('ID', 'i'), ('LT_OP', '<'), ('INTLIT', 10), ('SEMI', ';'), ('ID', 'i'), ('ADD_OP', '+'), ('ADD_OP', '+'), ('RB', ')'), ('LP', '{'), ('RP', '}')]

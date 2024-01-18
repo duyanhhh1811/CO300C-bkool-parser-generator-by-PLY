@@ -1,0 +1,5 @@
+Case:	#12
+Result:	True
+Input:	void main() {}
+Expect:	[('VOID', 'void'), ('ID', 'main'), ('LB', '('), ('RB', ')'), ('LP', '{'), ('RP', '}')]
+Answer:	[('VOID', 'void'), ('ID', 'main'), ('LB', '('), ('RB', ')'), ('LP', '{'), ('RP', '}')]

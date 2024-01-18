@@ -1,0 +1,5 @@
+Case:	#2
+Result:	True
+Input:	float y = 3.14;
+Expect:	[('FLOAT', 'float'), ('ID', 'y'), ('EQUAL_SIGN', '='), ('FLOATLIT', 3.14), ('SEMI', ';')]
+Answer:	[('FLOAT', 'float'), ('ID', 'y'), ('EQUAL_SIGN', '='), ('FLOATLIT', 3.14), ('SEMI', ';')]

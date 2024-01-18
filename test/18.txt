@@ -1,0 +1,6 @@
+Case:	#18
+Result:	True
+Input:	# This is a comment
+x = 1;
+Expect:	[('ID', 'x'), ('EQUAL_SIGN', '='), ('INTLIT', 1), ('SEMI', ';')]
+Answer:	[('ID', 'x'), ('EQUAL_SIGN', '='), ('INTLIT', 1), ('SEMI', ';')]

@@ -1,0 +1,5 @@
+Case:	#8
+Result:	True
+Input:	/* Comment */ x := 1;
+Expect:	[('ID', 'x'), ('ASSIGN_OP', ':='), ('INTLIT', 1), ('SEMI', ';')]
+Answer:	[('ID', 'x'), ('ASSIGN_OP', ':='), ('INTLIT', 1), ('SEMI', ';')]

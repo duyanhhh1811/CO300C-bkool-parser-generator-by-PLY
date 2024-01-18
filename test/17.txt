@@ -1,0 +1,5 @@
+Case:	#17
+Result:	True
+Input:	"This is a string"
+Expect:	[('STRINGLIT', 'This is a string')]
+Answer:	[('STRINGLIT', 'This is a string')]

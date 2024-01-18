@@ -1,0 +1,5 @@
+Case:	#11
+Result:	True
+Input:	class Example {}
+Expect:	[('CLASS', 'class'), ('ID', 'Example'), ('LP', '{'), ('RP', '}')]
+Answer:	[('CLASS', 'class'), ('ID', 'Example'), ('LP', '{'), ('RP', '}')]

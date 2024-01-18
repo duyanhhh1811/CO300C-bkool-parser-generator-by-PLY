@@ -59,6 +59,12 @@ class BKOOLCompiler:
     t_DOT = r'\.'
     t_COMMA = r','
     
+    # IDENTIFIER
+    def t_ID(self, t):
+        r'[_a-zA-Z][_a-zA-Z0-9]*'
+        t.type = self.reserved.get(t.value,'ID')
+        return t
+    
     # FLOATLIT
     def t_FLOATLIT(self, t):
         r'(\d+\.\d*[eE][-+]?\d+)|(\d+[eE][-+]?\d+)|(\d+\.\d*)'
@@ -75,12 +81,6 @@ class BKOOLCompiler:
     def t_STRINGLIT(self, t):
         r'"([^"\\]|\\.)*"'
         t.value = t.value[1:-1]
-        return t
-    
-    # IDENTIFIER
-    def t_ID(self, t):
-        r'[_a-zA-Z][_a-zA-Z0-9]*'
-        t.type = self.reserved.get(t.value,'ID')
         return t
     
     # Ignore space ( ) and tab (\t)
@@ -129,6 +129,7 @@ class BKOOLCompiler:
         'downto': 'DOWNTO',
     }
     
+    #!####################### PARSER RULES ########################
     # ~ 2.1: Class Declaration 
     def p_program(self, ctx):
         '''

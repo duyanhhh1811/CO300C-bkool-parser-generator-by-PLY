@@ -1,0 +1,5 @@
+Case:	#3
+Result:	True
+Input:	boolean flag = true;
+Expect:	[('BOOLEAN', 'boolean'), ('ID', 'flag'), ('EQUAL_SIGN', '='), ('TRUE', 'true'), ('SEMI', ';')]
+Answer:	[('BOOLEAN', 'boolean'), ('ID', 'flag'), ('EQUAL_SIGN', '='), ('TRUE', 'true'), ('SEMI', ';')]

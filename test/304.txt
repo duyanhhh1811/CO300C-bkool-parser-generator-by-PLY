@@ -1,0 +1,11 @@
+Case:	#304
+Result:	True
+Input:	class Test{
+            int set(int val){
+                x := -val;
+                int x, y;
+            }
+        }
+        
+Expect:	Program([ClassDecl(Id(Test),[MethodDecl(Id(set),Instance,[param(Id(val),IntType)],IntType,Block([VarDecl(Id(x),IntType),VarDecl(Id(y),IntType)],[AssignStmt(Id(x),UnaryOp(-,Id(val)))]))])])
+Answer:	Program([ClassDecl(Id(Test),[MethodDecl(Id(set),Instance,[param(Id(val),IntType)],IntType,Block([VarDecl(Id(x),IntType),VarDecl(Id(y),IntType)],[AssignStmt(Id(x),UnaryOp(-,Id(val)))]))])])

@@ -1,0 +1,5 @@
+Case:	#4
+Result:	True
+Input:	string s = "Hello";
+Expect:	[('STRING', 'string'), ('ID', 's'), ('EQUAL_SIGN', '='), ('STRINGLIT', 'Hello'), ('SEMI', ';')]
+Answer:	[('STRING', 'string'), ('ID', 's'), ('EQUAL_SIGN', '='), ('STRINGLIT', 'Hello'), ('SEMI', ';')]

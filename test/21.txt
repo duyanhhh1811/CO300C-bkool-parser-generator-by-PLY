@@ -1,0 +1,5 @@
+Case:	#21
+Result:	True
+Input:	array[10];
+Expect:	[('ID', 'array'), ('LSB', '['), ('INTLIT', 10), ('RSB', ']'), ('SEMI', ';')]
+Answer:	[('ID', 'array'), ('LSB', '['), ('INTLIT', 10), ('RSB', ']'), ('SEMI', ';')]

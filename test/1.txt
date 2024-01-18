@@ -1,0 +1,5 @@
+Case:	#1
+Result:	True
+Input:	int x := 42;
+Expect:	[('INT', 'int'), ('ID', 'x'), ('ASSIGN_OP', ':='), ('INTLIT', 42), ('SEMI', ';')]
+Answer:	[('INT', 'int'), ('ID', 'x'), ('ASSIGN_OP', ':='), ('INTLIT', 42), ('SEMI', ';')]

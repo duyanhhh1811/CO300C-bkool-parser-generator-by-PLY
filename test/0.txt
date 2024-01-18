@@ -1,0 +1,5 @@
+Case:	#0
+Result:	True
+Input:	int x := 42; float y := 3.14;
+Expect:	[('INT', 'int'), ('ID', 'x'), ('ASSIGN_OP', ':='), ('INTLIT', 42), ('SEMI', ';'), ('FLOAT', 'float'), ('ID', 'y'), ('ASSIGN_OP', ':='), ('FLOATLIT', 3.14), ('SEMI', ';')]
+Answer:	[('INT', 'int'), ('ID', 'x'), ('ASSIGN_OP', ':='), ('INTLIT', 42), ('SEMI', ';'), ('FLOAT', 'float'), ('ID', 'y'), ('ASSIGN_OP', ':='), ('FLOATLIT', 3.14), ('SEMI', ';')]
