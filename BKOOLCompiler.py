@@ -676,25 +676,22 @@ class BKOOLCompiler:
 
 def main():
     # Simple testcase for Lexer 
-    # input_lexer = "\"\"This is a string\" in a string\""
-    # tokens = BKOOLCompiler().tokenize(input_lexer)
-    # print(tokens)
-    
-    i = '4e2'
-    print(BKOOLCompiler().tokenize(i))
+    input_lexer = "\"\"This is a string\" in a string\""
+    tokens = BKOOLCompiler().tokenize(input_lexer)
+    print(tokens)
     
     # Simple testcase for Parser
-    # input_parser = '''
-    # class Shape{
-    #     int main(){
-    #         int x, y;
-    #         final float z, y = 19, a = 1.0;
-    #         string abc, xyz = 1;
-    #     }
-    # }
-    # '''
-    # ast = BKOOLCompiler().parse(input_parser)
-    # print(ast)
+    input_parser = '''
+    class Shape{
+        int main(){
+            int x, y;
+            final float z, y = 19, a = 1.0;
+            string abc, xyz = 1;
+        }
+    }
+    '''
+    ast = BKOOLCompiler().parse(input_parser)
+    print(ast)
 
 if __name__ == '__main__':
     main()
