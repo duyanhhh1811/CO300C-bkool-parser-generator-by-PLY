@@ -164,10 +164,8 @@ class BKOOLCompiler:
         classMemberList : classMember classMemberList 
                         | empty
         '''
-        if (len(ctx) == 3):
-            ctx[0] = ctx[1] + ctx[2]
-        else:
-            ctx[0] = []
+        if (len(ctx) == 3): ctx[0] = ctx[1] + ctx[2]
+        else: ctx[0] = []
         
     def p_classMember(self, ctx):
         '''
@@ -673,7 +671,7 @@ class BKOOLCompiler:
     
     #*####################### Parser methods ########################
     def parse(self, input_string):
-        return self.parser.parse(input_string, lexer=self.lexer, debug=True)
+        return self.parser.parse(input_string, lexer=self.lexer, debug=False)
 
 def main():
     # Simple testcase for Lexer 

@@ -1,5 +1,0 @@
-Case:	#23
-Result:	True
-Input:	int[] arr = new int[10];
-Expect:	[('INT', 'int'), ('LSB', '['), ('RSB', ']'), ('ID', 'arr'), ('EQUAL_SIGN', '='), ('NEW', 'new'), ('INT', 'int'), ('LSB', '['), ('INTLIT', 10), ('RSB', ']'), ('SEMI', ';')]
-Answer:	[('INT', 'int'), ('LSB', '['), ('RSB', ']'), ('ID', 'arr'), ('EQUAL_SIGN', '='), ('NEW', 'new'), ('INT', 'int'), ('LSB', '['), ('INTLIT', 10), ('RSB', ']'), ('SEMI', ';')]

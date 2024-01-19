@@ -1,9 +1,0 @@
-Case:	#306
-Result:	True
-Input:	class AttriTest{
-            final int x = 10, a, b = 2.0, d = true;
-            static int x, y = 10, z, f;
-        }
-        
-Expect:	Program([ClassDecl(Id(AttriTest),[AttributeDecl(Instance,ConstDecl(Id(x),IntType,IntLit(10))),AttributeDecl(Instance,ConstDecl(Id(a),IntType,FloatLit(2.0))),AttributeDecl(Instance,ConstDecl(Id(b),IntType,FloatLit(2.0))),AttributeDecl(Instance,ConstDecl(Id(d),IntType,BooleanLit(True))),AttributeDecl(Static,VarDecl(Id(x),IntType,IntLit(10))),AttributeDecl(Static,VarDecl(Id(y),IntType,IntLit(10))),AttributeDecl(Static,VarDecl(Id(z),IntType)),AttributeDecl(Static,VarDecl(Id(f),IntType))])])
-Answer:	Program([ClassDecl(Id(AttriTest),[AttributeDecl(Instance,ConstDecl(Id(x),IntType,IntLit(10))),AttributeDecl(Instance,ConstDecl(Id(a),IntType,FloatLit(2.0))),AttributeDecl(Instance,ConstDecl(Id(b),IntType,FloatLit(2.0))),AttributeDecl(Instance,ConstDecl(Id(d),IntType,BooleanLit(True))),AttributeDecl(Static,VarDecl(Id(x),IntType,IntLit(10))),AttributeDecl(Static,VarDecl(Id(y),IntType,IntLit(10))),AttributeDecl(Static,VarDecl(Id(z),IntType)),AttributeDecl(Static,VarDecl(Id(f),IntType))])])

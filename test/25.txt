@@ -1,5 +1,0 @@
-Case:	#25
-Result:	True
-Input:	continue;
-Expect:	[('CONTINUE', 'continue'), ('SEMI', ';')]
-Answer:	[('CONTINUE', 'continue'), ('SEMI', ';')]

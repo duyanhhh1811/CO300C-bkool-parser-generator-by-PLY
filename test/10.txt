@@ -1,5 +1,0 @@
-Case:	#10
-Result:	True
-Input:	return x;
-Expect:	[('RETURN', 'return'), ('ID', 'x'), ('SEMI', ';')]
-Answer:	[('RETURN', 'return'), ('ID', 'x'), ('SEMI', ';')]

@@ -28,12 +28,6 @@ class TestAST:
     def test(input, expect, num):
         ans = str(bkoolCompiler.parse(input))
         res = ans == expect
-
-        print(f"{input = }")
-        print(f"{expect = }")
-        print(f"{ans = }")
-        print(f"{res = }")
-        
         
         test_dir = os.path.join(os.path.dirname(__file__), 'test')
         os.makedirs(test_dir, exist_ok=True)

@@ -1,5 +1,0 @@
-Case:	#24
-Result:	True
-Input:	break;
-Expect:	[('BREAK', 'break'), ('SEMI', ';')]
-Answer:	[('BREAK', 'break'), ('SEMI', ';')]

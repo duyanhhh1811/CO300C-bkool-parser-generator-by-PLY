@@ -1,5 +1,0 @@
-Case:	#300
-Result:	True
-Input:	class main {}
-Expect:	Program([ClassDecl(Id(main),[])])
-Answer:	Program([ClassDecl(Id(main),[])])

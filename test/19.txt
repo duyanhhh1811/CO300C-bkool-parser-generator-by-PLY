@@ -1,5 +1,0 @@
-Case:	#19
-Result:	True
-Input:	y *= 5;
-Expect:	[('ID', 'y'), ('MUL_OP', '*'), ('EQUAL_SIGN', '='), ('INTLIT', 5), ('SEMI', ';')]
-Answer:	[('ID', 'y'), ('MUL_OP', '*'), ('EQUAL_SIGN', '='), ('INTLIT', 5), ('SEMI', ';')]

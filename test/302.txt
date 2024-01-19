@@ -1,8 +1,0 @@
-Case:	#302
-Result:	True
-Input:	class test{
-            static void support(int f; float a, b, c; boolean x, y) {}
-            int main(){}
-        }
-Expect:	Program([ClassDecl(Id(test),[MethodDecl(Id(support),Static,[param(Id(f),IntType),param(Id(a),FloatType),param(Id(b),FloatType),param(Id(c),FloatType),param(Id(x),BoolType),param(Id(y),BoolType)],VoidType,Block([],[])),MethodDecl(Id(main),Instance,[],IntType,Block([],[]))])])
-Answer:	Program([ClassDecl(Id(test),[MethodDecl(Id(support),Static,[param(Id(f),IntType),param(Id(a),FloatType),param(Id(b),FloatType),param(Id(c),FloatType),param(Id(x),BoolType),param(Id(y),BoolType)],VoidType,Block([],[])),MethodDecl(Id(main),Instance,[],IntType,Block([],[]))])])

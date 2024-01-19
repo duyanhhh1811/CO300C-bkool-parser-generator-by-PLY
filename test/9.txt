@@ -1,5 +1,0 @@
-Case:	#9
-Result:	True
-Input:	x = y == z;
-Expect:	[('ID', 'x'), ('EQUAL_SIGN', '='), ('ID', 'y'), ('EQUAL_OP', '=='), ('ID', 'z'), ('SEMI', ';')]
-Answer:	[('ID', 'x'), ('EQUAL_SIGN', '='), ('ID', 'y'), ('EQUAL_OP', '=='), ('ID', 'z'), ('SEMI', ';')]

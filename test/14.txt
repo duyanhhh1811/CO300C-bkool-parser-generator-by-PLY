@@ -1,5 +1,0 @@
-Case:	#14
-Result:	True
-Input:	if (x < 10) {}
-Expect:	[('IF', 'if'), ('LB', '('), ('ID', 'x'), ('LT_OP', '<'), ('INTLIT', 10), ('RB', ')'), ('LP', '{'), ('RP', '}')]
-Answer:	[('IF', 'if'), ('LB', '('), ('ID', 'x'), ('LT_OP', '<'), ('INTLIT', 10), ('RB', ')'), ('LP', '{'), ('RP', '}')]

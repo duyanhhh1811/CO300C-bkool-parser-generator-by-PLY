@@ -1,5 +1,0 @@
-Case:	#26
-Result:	True
-Input:	x != y;
-Expect:	[('ID', 'x'), ('NEQUAL_OP', '!='), ('ID', 'y'), ('SEMI', ';')]
-Answer:	[('ID', 'x'), ('NEQUAL_OP', '!='), ('ID', 'y'), ('SEMI', ';')]

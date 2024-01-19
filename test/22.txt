@@ -1,5 +1,0 @@
-Case:	#22
-Result:	True
-Input:	x++; y--;
-Expect:	[('ID', 'x'), ('ADD_OP', '+'), ('ADD_OP', '+'), ('SEMI', ';'), ('ID', 'y'), ('SUB_OP', '-'), ('SUB_OP', '-'), ('SEMI', ';')]
-Answer:	[('ID', 'x'), ('ADD_OP', '+'), ('ADD_OP', '+'), ('SEMI', ';'), ('ID', 'y'), ('SUB_OP', '-'), ('SUB_OP', '-'), ('SEMI', ';')]

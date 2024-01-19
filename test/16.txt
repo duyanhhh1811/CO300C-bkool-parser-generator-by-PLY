@@ -1,5 +1,0 @@
-Case:	#16
-Result:	True
-Input:	return 0;
-Expect:	[('RETURN', 'return'), ('INTLIT', 0), ('SEMI', ';')]
-Answer:	[('RETURN', 'return'), ('INTLIT', 0), ('SEMI', ';')]

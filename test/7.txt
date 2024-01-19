@@ -1,5 +1,0 @@
-Case:	#7
-Result:	True
-Input:	for i := 0 to 10 do {}
-Expect:	[('FOR', 'for'), ('ID', 'i'), ('ASSIGN_OP', ':='), ('INTLIT', 0), ('TO', 'to'), ('INTLIT', 10), ('DO', 'do'), ('LP', '{'), ('RP', '}')]
-Answer:	[('FOR', 'for'), ('ID', 'i'), ('ASSIGN_OP', ':='), ('INTLIT', 0), ('TO', 'to'), ('INTLIT', 10), ('DO', 'do'), ('LP', '{'), ('RP', '}')]

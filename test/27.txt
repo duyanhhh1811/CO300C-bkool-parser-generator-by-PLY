@@ -1,5 +1,0 @@
-Case:	#27
-Result:	True
-Input:	"Escape \n character"
-Expect:	[('STRINGLIT', 'Escape \\n character')]
-Answer:	[('STRINGLIT', 'Escape \\n character')]
