@@ -671,7 +671,7 @@ class BKOOLCompiler:
     
     #*####################### Parser methods ########################
     def parse(self, input_string):
-        return self.parser.parse(input_string, lexer=self.lexer, debug=False)
+        return self.parser.parse(input_string, lexer=self.lexer, debug=True)
 
 def main():
     # Simple testcase for Lexer 
